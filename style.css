@@ -1,0 +1,64 @@
+
+body{
+	font-family: Actor,sans-serif;
+	margin: 0;
+	padding: 0;
+ text-align: center;
+
+}
+
+#form_wrapper{
+width: 700px;
+height: 600px;
+margin: 0 auto; 
+font size: 20px;
+color: #666;
+text-align: center;
+}
+
+h2{
+	font-size: 35px;
+	color:  skyblue;
+}
+.field input{
+	width: 250px;
+	padding: 10px;
+	color: #300;
+	font-size: 12px;
+   box-shadow: 1px 1px 0.5px gray;
+   -moz- box-shadow:1px 1px 0.5px gray;
+   -webkit-box-shadow:1px 1px 0.5px gray;
+}
+.location select {
+	width: 230px;
+    padding: 3px;
+    font-size: 15px;
+}
+.gender input{
+	width: 50px;
+}
+textarea{
+	font-size: 16px;
+	color: #900;
+	width: 300px;
+	height:100px;
+    max-height: 200px;
+    max-width: 350px;
+}
+.sub input{
+	width: 170px;
+	font-size: 19px
+	padding:12px;
+	height: 90px;
+	background-color: transparent;
+   font-weight: bolder;
+}
+label{
+margin-left: 30px;
+
+}
+.field input:hover, .location input:hover , .sub input"hover, textarea:hover{
+  box-shadow: 1px  2px gray;
+   -moz- box-shadow:1px  2px gray;
+   -webkit-box-shadow:1px  2px gray;
+}
